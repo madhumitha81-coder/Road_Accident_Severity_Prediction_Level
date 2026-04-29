@@ -1,0 +1,249 @@
+{
+  "created_at": "2026-03-06T13:20:51.578588+00:00",
+  "raw_files": [
+    "/home/rohini/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTA Dataset.csv",
+    "/home/rohini/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTADatasetE1.csv"
+  ],
+  "run_directory": "/home/rohini/Road-Traffic-Accident-Severity-Prediction/artifacts/trained_mode_runs/run_20260306_185051",
+  "target_column": "accident_severity",
+  "dropped_columns": [
+    "age_band_of_driver",
+    "time",
+    "vehicle_driver_relation",
+    "work_of_casuality",
+    "fitness_of_casuality",
+    "day_of_week",
+    "casualty_severity",
+    "sex_of_driver",
+    "educational_level",
+    "defect_of_vehicle",
+    "owner_of_vehicle",
+    "service_year_of_vehicle",
+    "road_surface_type",
+    "sex_of_casualty",
+    "age_band_of_casualty",
+    "number_of_casualties"
+  ],
+  "feature_columns": [
+    "driving_experience",
+    "type_of_vehicle",
+    "area_accident_occured",
+    "lanes_or_medians",
+    "road_allignment",
+    "types_of_junction",
+    "road_surface_conditions",
+    "light_conditions",
+    "weather_conditions",
+    "type_of_collision",
+    "number_of_vehicles_involved",
+    "vehicle_movement",
+    "casualty_class",
+    "pedestrian_movement",
+    "cause_of_accident"
+  ],
+  "numeric_columns": [
+    "number_of_vehicles_involved"
+  ],
+  "categorical_columns": [
+    "driving_experience",
+    "type_of_vehicle",
+    "area_accident_occured",
+    "lanes_or_medians",
+    "road_allignment",
+    "types_of_junction",
+    "road_surface_conditions",
+    "light_conditions",
+    "weather_conditions",
+    "type_of_collision",
+    "vehicle_movement",
+    "casualty_class",
+    "pedestrian_movement",
+    "cause_of_accident"
+  ],
+  "categorical_options": {
+    "driving_experience": [
+      "1-2yr",
+      "2-5yr",
+      "5-10yr",
+      "Above 10yr",
+      "Below 1yr",
+      "No Licence",
+      "unknown"
+    ],
+    "type_of_vehicle": [
+      "Automobile",
+      "Bajaj",
+      "Bicycle",
+      "Long lorry",
+      "Lorry (11?40Q)",
+      "Lorry (41?100Q)",
+      "Motorcycle",
+      "Other",
+      "Pick up upto 10Q",
+      "Public (12 seats)",
+      "Public (13?45 seats)",
+      "Public (> 45 seats)",
+      "Ridden horse",
+      "Special vehicle",
+      "Stationwagen",
+      "Taxi",
+      "Turbo"
+    ],
+    "area_accident_occured": [
+      "Church areas",
+      "Hospital areas",
+      "Industrial areas",
+      "Market areas",
+      "Office areas",
+      "Other",
+      "Outside rural areas",
+      "RecreatioNAl areas",
+      "Recreational areas",
+      "Residential areas",
+      "Rural village areas",
+      "Rural village areasOffice areas",
+      "School areas",
+      "Unknown"
+    ],
+    "lanes_or_medians": [
+      "Double carriageway (median)",
+      "One way",
+      "Other",
+      "Two-way (divided with broken lines road marking)",
+      "Two-way (divided with solid lines road marking)",
+      "Undivided Two way",
+      "Unknown",
+      "other"
+    ],
+    "road_allignment": [
+      "Escarpments",
+      "Gentle horizontal curve",
+      "Sharp reverse curve",
+      "Steep grade downward with mountainous terrain",
+      "Steep grade upward with mountainous terrain",
+      "Tangent road with flat terrain",
+      "Tangent road with mild grade and flat terrain",
+      "Tangent road with mountainous terrain and",
+      "Tangent road with rolling terrain"
+    ],
+    "types_of_junction": [
+      "Crossing",
+      "No junction",
+      "O Shape",
+      "Other",
+      "T Shape",
+      "Unknown",
+      "X Shape",
+      "Y Shape"
+    ],
+    "road_surface_conditions": [
+      "Dry",
+      "Flood over 3cm. deep",
+      "Snow",
+      "Wet or damp"
+    ],
+    "light_conditions": [
+      "Darkness - lights lit",
+      "Darkness - lights unlit",
+      "Darkness - no lighting",
+      "Daylight"
+    ],
+    "weather_conditions": [
+      "Cloudy",
+      "Fog or mist",
+      "Normal",
+      "Other",
+      "Raining",
+      "Raining and Windy",
+      "Snow",
+      "Unknown",
+      "Windy"
+    ],
+    "type_of_collision": [
+      "Collision with animals",
+      "Collision with pedestrians",
+      "Collision with roadside objects",
+      "Collision with roadside-parked vehicles",
+      "Fall from vehicles",
+      "Other",
+      "Rollover",
+      "Unknown",
+      "Vehicle with vehicle collision",
+      "With Train"
+    ],
+    "vehicle_movement": [
+      "Entering a junction",
+      "Getting off",
+      "Going straight",
+      "Moving Backward",
+      "Other",
+      "Overtaking",
+      "Parked",
+      "Reversing",
+      "Stopping",
+      "Turnover",
+      "U-Turn",
+      "Unknown",
+      "Waiting to go"
+    ],
+    "casualty_class": [
+      "Driver or rider",
+      "Passenger",
+      "Pedestrian",
+      "na"
+    ],
+    "pedestrian_movement": [
+      "Crossing from driver's nearside",
+      "Crossing from nearside - masked by parked or statioNot a Pedestrianry vehicle",
+      "Crossing from offside - masked by parked or statioNot a Pedestrianry vehicle",
+      "In carriageway, statioNot a Pedestrianry - not crossing (standing or playing)",
+      "In carriageway, statioNot a Pedestrianry - not crossing (standing or playing) - masked by parked or statioNot a Pedestrianry vehicle",
+      "Not a Pedestrian",
+      "Unknown or other",
+      "Walking along in carriageway, back to traffic",
+      "Walking along in carriageway, facing traffic"
+    ],
+    "cause_of_accident": [
+      "Changing lane to the left",
+      "Changing lane to the right",
+      "Driving at high speed",
+      "Driving carelessly",
+      "Driving to the left",
+      "Driving under the influence of drugs",
+      "Drunk driving",
+      "Getting off the vehicle improperly",
+      "Improper parking",
+      "Moving Backward",
+      "No distancing",
+      "No priority to pedestrian",
+      "No priority to vehicle",
+      "Other",
+      "Overloading",
+      "Overspeed",
+      "Overtaking",
+      "Overturning",
+      "Turnover",
+      "Unknown"
+    ]
+  },
+  "train_rows": 12164,
+  "validation_rows": 3041,
+  "model_name": "RandomForestClassifier",
+  "model_params": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbose": 1
+  },
+  "metrics": {
+    "train_accuracy": 0.9996711608023676,
+    "validation_accuracy": 0.862216376192042,
+    "train_f1_weighted": 0.9996709999523087,
+    "validation_f1_weighted": 0.8126788416597273
+  },
+  "class_labels": [
+    "Fatal injury",
+    "Serious Injury",
+    "Slight Injury"
+  ]
+}

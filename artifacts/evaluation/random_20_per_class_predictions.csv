@@ -1,0 +1,61 @@
+combined_row_id,source_dataset,source_row_id,sample_group,actual_value,predicted_value,is_correct
+865,RTA Dataset.csv,865,Fatal injury,Fatal injury,Fatal injury,True
+928,RTA Dataset.csv,928,Fatal injury,Fatal injury,Fatal injury,True
+930,RTA Dataset.csv,930,Fatal injury,Fatal injury,Fatal injury,True
+4169,RTA Dataset.csv,4169,Fatal injury,Fatal injury,Fatal injury,True
+4887,RTA Dataset.csv,4887,Fatal injury,Fatal injury,Fatal injury,True
+5128,RTA Dataset.csv,5128,Fatal injury,Fatal injury,Fatal injury,True
+5886,RTA Dataset.csv,5886,Fatal injury,Fatal injury,Fatal injury,True
+5968,RTA Dataset.csv,5968,Fatal injury,Fatal injury,Fatal injury,True
+6800,RTA Dataset.csv,6800,Fatal injury,Fatal injury,Fatal injury,True
+6854,RTA Dataset.csv,6854,Fatal injury,Fatal injury,Fatal injury,True
+7296,RTA Dataset.csv,7296,Fatal injury,Fatal injury,Fatal injury,True
+10110,RTA Dataset.csv,10110,Fatal injury,Fatal injury,Fatal injury,True
+10228,RTA Dataset.csv,10228,Fatal injury,Fatal injury,Fatal injury,True
+10450,RTA Dataset.csv,10450,Fatal injury,Fatal injury,Fatal injury,True
+10670,RTA Dataset.csv,10670,Fatal injury,Fatal injury,Fatal injury,True
+10930,RTA Dataset.csv,10930,Fatal injury,Fatal injury,Fatal injury,True
+12271,RTA Dataset.csv,12271,Fatal injury,Fatal injury,Fatal injury,True
+12459,RTADatasetE1.csv,143,Fatal injury,Fatal injury,Fatal injury,True
+13419,RTADatasetE1.csv,1103,Fatal injury,Fatal injury,Fatal injury,True
+15060,RTADatasetE1.csv,2744,Fatal injury,Fatal injury,Fatal injury,True
+467,RTA Dataset.csv,467,Serious Injury,Serious Injury,Serious Injury,True
+676,RTA Dataset.csv,676,Serious Injury,Serious Injury,Slight Injury,False
+840,RTA Dataset.csv,840,Serious Injury,Serious Injury,Serious Injury,True
+1287,RTA Dataset.csv,1287,Serious Injury,Serious Injury,Serious Injury,True
+2061,RTA Dataset.csv,2061,Serious Injury,Serious Injury,Serious Injury,True
+2092,RTA Dataset.csv,2092,Serious Injury,Serious Injury,Serious Injury,True
+4699,RTA Dataset.csv,4699,Serious Injury,Serious Injury,Serious Injury,True
+4944,RTA Dataset.csv,4944,Serious Injury,Serious Injury,Serious Injury,True
+5793,RTA Dataset.csv,5793,Serious Injury,Serious Injury,Serious Injury,True
+7210,RTA Dataset.csv,7210,Serious Injury,Serious Injury,Serious Injury,True
+7281,RTA Dataset.csv,7281,Serious Injury,Serious Injury,Serious Injury,True
+10498,RTA Dataset.csv,10498,Serious Injury,Serious Injury,Serious Injury,True
+10500,RTA Dataset.csv,10500,Serious Injury,Serious Injury,Serious Injury,True
+10746,RTA Dataset.csv,10746,Serious Injury,Serious Injury,Serious Injury,True
+12173,RTA Dataset.csv,12173,Serious Injury,Serious Injury,Slight Injury,False
+12426,RTADatasetE1.csv,110,Serious Injury,Serious Injury,Serious Injury,True
+13102,RTADatasetE1.csv,786,Serious Injury,Serious Injury,Serious Injury,True
+13174,RTADatasetE1.csv,858,Serious Injury,Serious Injury,Serious Injury,True
+14525,RTADatasetE1.csv,2209,Serious Injury,Serious Injury,Serious Injury,True
+14795,RTADatasetE1.csv,2479,Serious Injury,Serious Injury,Serious Injury,True
+13,RTA Dataset.csv,13,Slight Injury,Slight Injury,Slight Injury,True
+570,RTA Dataset.csv,570,Slight Injury,Slight Injury,Slight Injury,True
+1653,RTA Dataset.csv,1653,Slight Injury,Slight Injury,Slight Injury,True
+3977,RTA Dataset.csv,3977,Slight Injury,Slight Injury,Slight Injury,True
+5941,RTA Dataset.csv,5941,Slight Injury,Slight Injury,Slight Injury,True
+6170,RTA Dataset.csv,6170,Slight Injury,Slight Injury,Slight Injury,True
+6184,RTA Dataset.csv,6184,Slight Injury,Slight Injury,Slight Injury,True
+6356,RTA Dataset.csv,6356,Slight Injury,Slight Injury,Slight Injury,True
+6697,RTA Dataset.csv,6697,Slight Injury,Slight Injury,Slight Injury,True
+6815,RTA Dataset.csv,6815,Slight Injury,Slight Injury,Slight Injury,True
+7051,RTA Dataset.csv,7051,Slight Injury,Slight Injury,Slight Injury,True
+8170,RTA Dataset.csv,8170,Slight Injury,Slight Injury,Slight Injury,True
+9957,RTA Dataset.csv,9957,Slight Injury,Slight Injury,Slight Injury,True
+10360,RTA Dataset.csv,10360,Slight Injury,Slight Injury,Slight Injury,True
+10614,RTA Dataset.csv,10614,Slight Injury,Slight Injury,Slight Injury,True
+10894,RTA Dataset.csv,10894,Slight Injury,Slight Injury,Slight Injury,True
+11374,RTA Dataset.csv,11374,Slight Injury,Slight Injury,Slight Injury,True
+12015,RTA Dataset.csv,12015,Slight Injury,Slight Injury,Slight Injury,True
+12121,RTA Dataset.csv,12121,Slight Injury,Slight Injury,Slight Injury,True
+14599,RTADatasetE1.csv,2283,Slight Injury,Slight Injury,Slight Injury,True

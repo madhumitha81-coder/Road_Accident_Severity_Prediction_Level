@@ -1,0 +1,253 @@
+{
+  "created_at": "2026-03-09T06:13:09.416219+00:00",
+  "raw_files": [
+    "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTA Dataset.csv",
+    "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTADatasetE1.csv"
+  ],
+  "raw_data_paths": [
+    "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTA Dataset.csv",
+    "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/Datasets/raw/RTADatasetE1.csv"
+  ],
+  "generated_processed_path": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/processed_data_from_raw.csv",
+  "run_directory": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/runs/run_20260309_114309",
+  "target_column": "accident_severity",
+  "requested_excluded_columns": [
+    "area_accident_occured",
+    "casualty_class",
+    "cause_of_accident",
+    "type_of_collision"
+  ],
+  "dropped_columns": [
+    "age_band_of_driver",
+    "time",
+    "vehicle_driver_relation",
+    "work_of_casuality",
+    "fitness_of_casuality",
+    "day_of_week",
+    "casualty_severity",
+    "sex_of_driver",
+    "educational_level",
+    "defect_of_vehicle",
+    "owner_of_vehicle",
+    "service_year_of_vehicle",
+    "road_surface_type",
+    "sex_of_casualty",
+    "age_band_of_casualty",
+    "number_of_casualties",
+    "area_accident_occured",
+    "casualty_class",
+    "cause_of_accident",
+    "type_of_collision"
+  ],
+  "feature_columns": [
+    "driving_experience",
+    "type_of_vehicle",
+    "lanes_or_medians",
+    "road_allignment",
+    "types_of_junction",
+    "road_surface_conditions",
+    "light_conditions",
+    "weather_conditions",
+    "number_of_vehicles_involved",
+    "vehicle_movement",
+    "pedestrian_movement"
+  ],
+  "field_labels": {
+    "driving_experience": "Driving Experience",
+    "type_of_vehicle": "Type Of Vehicle",
+    "lanes_or_medians": "Lanes Or Medians",
+    "road_allignment": "Road Allignment",
+    "types_of_junction": "Types Of Junction",
+    "road_surface_conditions": "Road Surface Conditions",
+    "light_conditions": "Light Conditions",
+    "weather_conditions": "Weather Conditions",
+    "number_of_vehicles_involved": "Number Of Vehicles Involved",
+    "vehicle_movement": "Vehicle Movement",
+    "pedestrian_movement": "Pedestrian Movement",
+    "area_accident_occured": "Area Accident Occured",
+    "casualty_class": "Casualty Class",
+    "cause_of_accident": "Cause Of Accident",
+    "type_of_collision": "Type Of Collision"
+  },
+  "feature_summary": {
+    "numerical_columns": [
+      "number_of_vehicles_involved"
+    ],
+    "categorical_columns": [
+      "driving_experience",
+      "type_of_vehicle",
+      "lanes_or_medians",
+      "road_allignment",
+      "types_of_junction",
+      "road_surface_conditions",
+      "light_conditions",
+      "weather_conditions",
+      "vehicle_movement",
+      "pedestrian_movement"
+    ]
+  },
+  "numeric_columns": [
+    "number_of_vehicles_involved"
+  ],
+  "categorical_columns": [
+    "driving_experience",
+    "type_of_vehicle",
+    "lanes_or_medians",
+    "road_allignment",
+    "types_of_junction",
+    "road_surface_conditions",
+    "light_conditions",
+    "weather_conditions",
+    "vehicle_movement",
+    "pedestrian_movement"
+  ],
+  "categorical_options": {
+    "driving_experience": [
+      "1-2yr",
+      "2-5yr",
+      "5-10yr",
+      "Above 10yr",
+      "Below 1yr",
+      "No Licence",
+      "unknown"
+    ],
+    "type_of_vehicle": [
+      "Automobile",
+      "Bajaj",
+      "Bicycle",
+      "Long lorry",
+      "Lorry (11?40Q)",
+      "Lorry (41?100Q)",
+      "Motorcycle",
+      "Other",
+      "Pick up upto 10Q",
+      "Public (12 seats)",
+      "Public (13?45 seats)",
+      "Public (> 45 seats)",
+      "Ridden horse",
+      "Special vehicle",
+      "Stationwagen",
+      "Taxi",
+      "Turbo"
+    ],
+    "lanes_or_medians": [
+      "Double carriageway (median)",
+      "One way",
+      "Other",
+      "Two-way (divided with broken lines road marking)",
+      "Two-way (divided with solid lines road marking)",
+      "Undivided Two way",
+      "Unknown",
+      "other"
+    ],
+    "road_allignment": [
+      "Escarpments",
+      "Gentle horizontal curve",
+      "Sharp reverse curve",
+      "Steep grade downward with mountainous terrain",
+      "Steep grade upward with mountainous terrain",
+      "Tangent road with flat terrain",
+      "Tangent road with mild grade and flat terrain",
+      "Tangent road with mountainous terrain and",
+      "Tangent road with rolling terrain"
+    ],
+    "types_of_junction": [
+      "Crossing",
+      "No junction",
+      "O Shape",
+      "Other",
+      "T Shape",
+      "Unknown",
+      "X Shape",
+      "Y Shape"
+    ],
+    "road_surface_conditions": [
+      "Dry",
+      "Flood over 3cm. deep",
+      "Snow",
+      "Wet or damp"
+    ],
+    "light_conditions": [
+      "Darkness - lights lit",
+      "Darkness - lights unlit",
+      "Darkness - no lighting",
+      "Daylight"
+    ],
+    "weather_conditions": [
+      "Cloudy",
+      "Fog or mist",
+      "Normal",
+      "Other",
+      "Raining",
+      "Raining and Windy",
+      "Snow",
+      "Unknown",
+      "Windy"
+    ],
+    "vehicle_movement": [
+      "Entering a junction",
+      "Getting off",
+      "Going straight",
+      "Moving Backward",
+      "Other",
+      "Overtaking",
+      "Parked",
+      "Reversing",
+      "Stopping",
+      "Turnover",
+      "U-Turn",
+      "Unknown",
+      "Waiting to go"
+    ],
+    "pedestrian_movement": [
+      "Crossing from driver's nearside",
+      "Crossing from nearside - masked by parked or statioNot a Pedestrianry vehicle",
+      "Crossing from offside - masked by parked or statioNot a Pedestrianry vehicle",
+      "In carriageway, statioNot a Pedestrianry - not crossing (standing or playing)",
+      "In carriageway, statioNot a Pedestrianry - not crossing (standing or playing) - masked by parked or statioNot a Pedestrianry vehicle",
+      "Not a Pedestrian",
+      "Unknown or other",
+      "Walking along in carriageway, back to traffic",
+      "Walking along in carriageway, facing traffic"
+    ]
+  },
+  "train_rows": 12164,
+  "validation_rows": 3041,
+  "model_name": "RandomForestClassifier",
+  "model_params": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "n_jobs": 1,
+    "verbose": 1
+  },
+  "metrics": {
+    "train_accuracy": 0.9581552121012825,
+    "validation_accuracy": 0.8401841499506741,
+    "train_f1_weighted": 0.9560958522702522,
+    "validation_f1_weighted": 0.798361650621087
+  },
+  "train_metrics": {
+    "accuracy": 0.9581552121012825,
+    "f1_weighted": 0.9560958522702522
+  },
+  "validation_metrics": {
+    "accuracy": 0.8401841499506741,
+    "f1_weighted": 0.798361650621087
+  },
+  "class_labels": [
+    "Fatal injury",
+    "Serious Injury",
+    "Slight Injury"
+  ],
+  "artifacts": {
+    "processed_data": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/processed_data_from_raw.csv",
+    "model_ready_data": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/data.csv",
+    "train_data": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/train.csv",
+    "validation_data": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/test.csv",
+    "root_model": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/model.pkl",
+    "root_preprocessor": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/preprecessor.pkl",
+    "root_pipeline": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/training_pipeline.pkl",
+    "root_metrics": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/metrics.json",
+    "serving_directory": "/home/rohini/Music/ML_KITS/Road-Traffic-Accident-Severity-Prediction/artifacts/serving"
+  }
+}

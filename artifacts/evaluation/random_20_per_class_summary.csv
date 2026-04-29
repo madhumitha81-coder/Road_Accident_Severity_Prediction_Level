@@ -1,0 +1,4 @@
+sample_group,total_rows,correct_predictions,accuracy_within_sample
+Fatal injury,20,20,1.0
+Serious Injury,20,18,0.9
+Slight Injury,20,20,1.0
